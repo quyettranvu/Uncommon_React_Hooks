@@ -19,7 +19,7 @@ function App() {
 
   return (
     <>
-      <h3>Demo Learning App</h3>
+      <h3>Demo Learning Application</h3>
       <Form ref={myRef} />
       <button onClick={() => myRef.current.submitForm()}>
         Login from Parent Components
